@@ -52,5 +52,10 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "workspaces": {
+    "packages": [
+      "*"
+    ]
   }
 }
