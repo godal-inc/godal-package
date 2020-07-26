@@ -1,6 +1,6 @@
 {
   "name": "@godal-inc/grpc-health-check-nestjs",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "",
   "author": "",
   "private": false,
