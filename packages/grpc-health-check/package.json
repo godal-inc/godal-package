@@ -1,10 +1,14 @@
 {
   "name": "@godal-inc/grpc-health-check-nestjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "",
   "private": false,
   "license": "UNLICENSED",
+  "repository": { 
+    "type": "git",
+    "url": "https://github.com/godal-inc/godal-packages"
+  },
   "files": [
     "dist/*",
     "health.proto",
