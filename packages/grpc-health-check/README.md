@@ -14,6 +14,7 @@ yarn add @godal-inc/grpc-health-check
 async function bootstrap() {
   app = moduleFixture.
     createNestMicroservice<MicroserviceOptions>(
+      AppModule,
       extendedHealthCheckGrpcOptions({
         options: {
           url: '0.0.0.0:5000',
